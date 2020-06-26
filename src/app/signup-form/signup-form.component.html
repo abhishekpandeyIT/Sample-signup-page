@@ -1,0 +1,66 @@
+<style> 
+div{background-color: lightblue}
+label {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    color: black;
+    width: 400px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    }
+
+input {
+    margin-left: 10px;
+    width: 30%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    color: red;
+    }
+</style>
+
+<header align=center>
+        <h1>SIGNUP PAGE</h1>
+        </header>
+
+<form action="https://www.linkedin.com/in/abhishekpandeyit/" method="GET">
+<div align='center'>
+            <div>
+                <label for="fName">
+                    <strong>First Name: </strong>
+                </label>
+                <input type="text" name="First Name" id="fname" placeholder="Eg: Abhishek" required>
+            </div>
+            <div>
+                <label for="lName" >
+                    <strong>Last Name:</strong>
+                </label>
+                <input type="text" name="Last Name" id="lname" placeholder="Eg: Pandey" required>
+            </div>
+            <div id="uname">
+                <label for="uName" >
+                    <strong>Username: </strong>
+                </label>
+                <input type="text" name="User Name" id="uname" placeholder="Eg: ap1209" required>
+            </div>
+            <div>
+                <label for="pass" >
+                    <strong>Password: </strong>
+                </label>
+                <input type="password" name="Password" id="pass" placeholder="Eg: 123@$#456" required>
+            </div>
+            <div>
+                <label for="dob" >
+                    <strong>Date of Birth: </strong>
+                </label>
+                <input type="date" name="Date of Birth" id="dob" required>
+            </div>
+            <div>
+                <label for="country" ><strong>Country: </strong></label>
+                <input type="text" name="Country" id='country' placeholder="India" required>
+            </div><br>
+            <button class= "btn btn-primary"><strong>Sign up</strong></button>
+</div>
+        </form>
